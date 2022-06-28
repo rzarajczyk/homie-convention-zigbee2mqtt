@@ -1,0 +1,3 @@
+paho-mqtt
+service-bootstrap
+homie-helpers~=0.0.6
