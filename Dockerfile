@@ -1,5 +1,4 @@
 FROM python:3
-ENV TZ="Europe/Warsaw"
 
 RUN mkdir -p /app/config
 
