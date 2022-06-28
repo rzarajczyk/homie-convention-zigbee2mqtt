@@ -34,7 +34,7 @@ def read_devices(devices_definition):
             properties = []
             for property_definition in device_definition['definition']['exposes']:
                 property_id = create_homie_id(property_definition['name'])
-                property_name = property_definition['description']
+                property_name = property_definition['name'].capitalize() # property_definition['description']
                 property_unit = property_definition['unit']
                 property_type = property_definition['type']
                 if property_type == 'numeric':
